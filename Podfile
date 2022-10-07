@@ -6,8 +6,9 @@ target 'NYCSchool' do
   use_frameworks!
 
   # Pods for NYCSchool
+pod 'Alamofire'
   pod 'SDWebImage', '~> 5.0'
-  pod 'Alamofire'
+  
   pod 'PureLayout'
 
   target 'NYCSchoolTests' do
